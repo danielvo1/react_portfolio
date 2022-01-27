@@ -1,9 +1,16 @@
 import React from "react";
+import Navbar from "./components/Navbar"
+import About from "./components/About"
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 export default function App() {
     return (
         <main>
-            <h1> Hello World ! </h1>
+            <Navbar />
+            <About/>
+            <Projects />
+            <Contact />
         </main>
     )
 }

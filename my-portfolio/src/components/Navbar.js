@@ -8,9 +8,11 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="nav" id="navbar">
-                
-            </nav>
+            <div className="nav" id="navbar">
+                <Link to="about" smooth="true"> About </Link>
+                <Link to="projects" smooth="true"> Projects </Link>
+                <Link to="contact" smooth="true"> Contact </Link>
+            </div>
         )
     }
 }
