@@ -1,25 +1,11 @@
 export default function About() {
     return (
-        <main id="about">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+        <div id="about">
             <h1>About</h1>
-            <p> asdfasdfas as asd asd as  sd asd asd asd s asdasdasdas  asdasdasdasas asd asd asasd 
-                sd asd asd asd sdasdasdadsas asdasdasdasd asdasdasadasd asdasdasdasdasd asdasdas asdasdas asdasdasdasasdasd 
-                dasd das asdadasdsa asadasdasdas sadasdasdasd asdasda asdasdasdas
+            <p> Hello! My name is Daniel, and I am looking for work as a Full-Stack Developer. A little bit about me, I am a UC Berkeley Alumni.
+                I love basketball, and I was a the Head Team Manager when I was in college. If you would love to know more about me feel free to contact me!
+                Have fun exploring my page :)
             </p>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-        </main>
+        </div>
     )
 }
